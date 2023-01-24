@@ -1,0 +1,45 @@
+<script>
+  do {
+    var num = Number(prompt("Digite um número!"))
+    if (num <= 1 || isNaN(num)) {
+      alert("Número invalido!")
+      location.reload()
+    }
+  } while (num <= 0 || isNaN(num))
+  pares = "pares entre o numero 1 e " + num + ": ";
+  if (num >= 2) {
+    pares = pares + "2"
+  }
+  for (var i = 4; i < num; i = i + 2) {
+    pares = pares + ", " + i;
+  }
+
+  alert(pares)
+</script>
+
+<!-- <script>
+  // solicita o número e repete a leitura enquanto inválido
+  do {
+    var num = Number(prompt("Número: "));
+    if (num == 0 || isNaN(num)) {
+      alert("Digite um número válido...");
+    }
+  } while (num == 0 || isNaN(num));
+
+  // declara e inicializa variável que irá exibir pares
+  var pares = "Pares entre 1 e " + num + ": ";
+
+  // isola o primeiro par (para evitar última vírgula)
+  if (num > 1) {
+    pares = pares + "2";
+  }
+
+  // laço para acumular pares (inicia em 4, pois o 2 já foi atribuído)
+  for (var i = 4; i <= num; i = i + 2) {
+    pares = pares + ", " + i;
+  }
+
+  // exibe lista dos números pares
+  alert(pares);
+
+</script> -->
