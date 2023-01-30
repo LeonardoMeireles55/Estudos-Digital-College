@@ -11,7 +11,7 @@ for (var i = 0; i < mega.length; i++) {
     newNum.add(newMega)
     mega[i] = newMega
     console.log(mega)
-    outResultado.textContent = mega;
+    outResultado.textContent ="Os números são: " + mega + ".";
     
 }
 
