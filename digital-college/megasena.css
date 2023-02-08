@@ -1,0 +1,77 @@
+button {
+
+    height:90px;
+    border:none;  
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(8, 66, 26);
+}
+
+button {
+
+    background-color: #1a39c5cf;
+    color: #bdf5bd;
+    font-size: 37px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+head {
+
+    color: rgb(196, 93, 52);
+}
+
+.banner {
+
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.blocotexto {
+
+        padding-left: 100px;
+        padding-top: 30px;
+}
+
+.titulo {
+
+    color: rgb(253, 244, 244);
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.teste {
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#botao {
+    padding: 50px 100px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#outResultado {
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    bottom: 75;
+    color: rgb(49, 192, 156);   
+}
