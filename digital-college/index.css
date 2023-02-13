@@ -1,0 +1,23 @@
+h1 {
+    color: red
+}
+p {
+    color:blue
+}
+.para:hover { 
+    padding:20px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#titulo {
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: aquamarine;
+    color: rgb(165, 176, 221);
+    text-align: center;
+
+}
