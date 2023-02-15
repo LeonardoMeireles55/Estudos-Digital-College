@@ -27,9 +27,19 @@ width: 100%;
     height: 200px;
     display: flex;
 }
-#content-two .one, .two {
+#content-two .one,
+#content-two  .two {
 width: 200px;
 border: 2px dotted #000;
 width: 50%;
 
+}
+
+#last-content-border {
+    height: 200px;
+    display: flex;
+}
+.one, .two, .three {
+border: 2px dashed #000;
+width: 100%;
 }
