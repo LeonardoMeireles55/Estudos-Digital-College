@@ -1,0 +1,35 @@
+.content {
+    height: 100vh;
+    display: flex;
+}
+
+.sider {
+    width: 15%;
+    
+}
+
+.body-content {
+width: 100%;    
+}
+
+.border {
+    border: 2px solid #000
+}   
+
+.header {
+    height: 40px;
+}
+
+#content-one {
+    
+}
+#content-two {
+    height: 200px;
+    display: flex;
+}
+#content-two .one, .two {
+width: 200px;
+border: 2px dotted #000;
+width: 50%;
+
+}
