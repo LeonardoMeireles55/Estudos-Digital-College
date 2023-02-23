@@ -1,0 +1,1 @@
+console.log(`Um numero aleatório: ${Math.random().toFixed(1) * 10 }`)
