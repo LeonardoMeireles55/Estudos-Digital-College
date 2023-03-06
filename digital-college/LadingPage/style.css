@@ -42,95 +42,88 @@ header {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.content-icons{
+    display: flex;
+    justify-content: center;
+}
 
 .icons {
-display: inline-flex;
-
-
-}
-
-.icons .first-content{
-display: inline-flex;
-width: 40px;
-height: 40px;
-
-
+width: 70vw;
+height: 30vh;
+display: flex;
+flex-direction:row ;
+justify-content: space-evenly;
+padding: 10px;
 
 }
-.icons .second-content{
-display: inline-flex;
-width: 40px;
-height: 40px;
-padding-left: 195px;
-
-
-}
-.icons .thirt-content{
-display: inline-flex;
-padding-left: 195px;    
-width: 40px;
-height: 40px;
+div.icons p {
+    text-align: left;
 }
 
-.texto {
-    display: inline-flex;
-    padding: 70px;
-    position: relative;
-    bottom: 60px;
-    font-size: small;
-    
+
+.size{
+width: 100vw;
+display: flex;
+flex-direction:column ;
+justify-content: center;
 }
 
-#texto1 {
-    position: relative;
-    left: 60px;
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    width: 250px;
+    gap: 20px;
 }
 
-#texto2 {
-    position: relative;
-    left: 20px;
+.content > span{
+    width: 40px;
+    height: 40px;
+}
+.content > span > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-#texto3 {
-    position: relative;
-    left: 80px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .textoUnder {
     display: flex;
     font-size: smaller;
-    position: relative;
-    bottom: 120px;
-    padding-left: 630px;
-    text-align: center;
-    
+    justify-content: space-evenly;
     
 }
-
 #under1 {
     display: flex;
     flex-direction: row;
-    position: relative;
-    right: 15px;
+
     
     }
 
 #under2 {  
     display: flex;
     flex-direction: row;
-    position: relative;
-    
-   
+
     
         }
 
 #under3 {    
     display: flex;
     flex-direction: row;
-    position: relative;
-    left: 20px;
-    
     
             }
