@@ -1,0 +1,269 @@
+
+
+body{
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22661.1%22%20viewBox%3D%220%200%201440%20661.1%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20rgb%280%2C%20128%2C%2096%29%20%21important%3B%20%7D%3C%2Fstyle%3E%3Cpath%20fill%3D%22rgb%280%2C%20128%2C%2096%29%22%20d%3D%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22%2F%3E%3C%2Fsvg%3E) ;
+    background-position: relative;
+    background-repeat: no-repeat;
+    width: 	100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size:contain;
+    
+
+    
+ 
+}
+
+.secao-header div{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.text-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+    justify-content: center;
+    margin:auto;
+}
+
+.inp-btn{
+    width: 20%;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: space-around;
+   height: 6vh;
+   border-radius: 6px;
+   margin-top: 8px;
+   margin-top: 20px;
+   
+
+}
+
+.imagem-2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 45px;
+}
+.secao-opcoes{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    
+}
+.secao-opcoes article{
+    background-color: #fff;
+    margin-top: 60px;
+    width: 50%;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    color: #000;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    
+}
+.secao-opcoes i{
+    font-size: 4rem;
+    transition: 1s;
+    color: rgb(9, 156, 90)
+}
+
+.secao-opcoes article:hover{
+    
+    transition: 1s;
+    transform: scale(1.2) ;
+
+}
+.secao-opcoes article:hover{
+   
+    transition: 1s;
+    transform: scale(1.2) ;
+
+}
+.secao-opcoes article:hover{
+  
+    transition: 1s;
+    transform: scale(1.2) ;
+
+}
+
+.imagens{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:16px;
+}
+
+
+hr{
+    width: 100%;
+    border: 1 px solid;
+}
+p{
+    font-size: 12px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 40px;
+    font-weight: 700
+}
+
+.p-up{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    margin-top: -40px;
+}
+
+.p-head{
+    font-size: 12px;
+    width: 100%;
+    text-align: center;   
+    color:#fff 
+}
+
+.input{
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    min-width: 450px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 0 0 0 1px #6b7177;
+
+}
+
+.btn1{
+    min-width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #212326;;
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.btn1:hover{
+    background-color: #000;
+    transition: 200ms;
+}
+
+.creator{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn2{
+  
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(9, 156, 90);
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.btn2:hover{
+    background-color: #008060;
+    transition: 150ms;
+}
+
+.title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    font-size: 3rem;
+    margin: 2rem 0rem
+}
+.accordion{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(244, 233, 233);
+    
+}
+
+.contentbx{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px 20px;
+   
+}
+
+.label{
+    padding:10px;
+    color: #000;
+    cursor: pointer; 
+}
+
+.material-icons{
+    cursor: pointer;
+}
+
+.end{
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    color: #03392d;
+    background-color: white;
+    margin-left: 8px;
+
+    
+    
+
+}
+
+.a-1{
+
+    color: #0c632c;
+    text-decoration: none
+}
+
+.a-2{
+    margin-left: 8px;
+    color: #0c632c;
+    text-decoration: none
+}
