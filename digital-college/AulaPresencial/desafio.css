@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+   
+}
+
+body {
+    margin: 0;
+}
+
+.border {
+    border: none;
+    }   
+
+.header {
+    display: flex;
+    align-items: center;;
+    width: 100%;
+    color: white;
+    background-color: rgb(3, 101, 143);
+    
+    }
+
+ .button123 {
+    position: relative;
+    left: 1275px;
+    margin-right: 50px;
+    height: 40%;
+    background-color: rgb(255, 142, 4);
+  color: white;
+  font-size: 9px;
+  border-color: white;
+  
+}
+
+.content-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.first-content
+ {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.conteiner-body
+{
+    width: 40%;
+    padding-top: 2%;
+    display: inline;
+      
+
+}
+
+.title {
+    color: rgb(3, 71, 100);
+    margin: 30px;
+}
+
+.card {
+    display: inline-block;
+    margin: 0px;
+    padding: 15px;
+    margin-top: 10px;  
+    border: 1px solid rgb(3, 71, 100);
+    color: rgb(3, 71, 100);
+}
+
+.margin {
+    margin-top: 10px;
+}
+
+.quebra {
+    margin-left: 28%;
+    margin-right: 28%;
+    color: rgb(3, 71, 100);
+    
+}
+
+#div-first-content {
+    width: 70%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(3, 71, 100);
+    margin-left: 500px;
+    
+}
+
+#div-first-content h1{
+    margin-top: 5px;
+    font-size: 38px;
+}
+
+#div-first-content p {
+    font-size: 18px;
+}
+
+.one {
+    height: 150px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:  20px;
+    color: white;
+    background-color: rgb(0, 149, 255);
+    text-align: center;
+}
+
+.two {
+    height: 340px;
+    width: 100%;
+    text-align: center;
+}
+
+.three {
+    display: inline-block;
+    height: 340px;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(0, 149, 255);
+    
+}
+
+.four {
+    display: inline-block;
+    background-color: rgb(0, 149, 255);
+    height: 340px;
+    width: 69.72%;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgb(3, 101, 143);
+    width: 100%;
+    text-align: center;
+}
+
+
+.button1 {
+    border: none;
+    margin-bottom: 0%;
+    margin-top:1%;
+    height: 25%;
+    background-color: rgb(237, 226, 226);
+    
+
+}
+
+.underbutton {
+    padding-top: 10px;
+  font-size: 12px;
+ 
+  
+}
+
+
+
+#lastSquare {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(3, 71, 100);
+    color: rgb(3, 71, 100);
+        
+}
+
+.final  {
+    
+    background-color: rgb(0, 149, 255);
+    color: white;
+    
+    
+    
+    
+    
+}
+
+.final .left {
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+
+}
+
+.final .right {
+    display: inline-block;
+    margin-top: 100%;
+    margin: 2%;
+    
+          
+}
+
+.final .linha {
+    display: inline-block;
+    height: 250px;
+    border-left: 2px solid white;
+    
+}
+

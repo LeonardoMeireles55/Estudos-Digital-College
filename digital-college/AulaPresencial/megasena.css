@@ -1,0 +1,41 @@
+.banner {
+
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.start {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#botao {
+    padding: 645px 100px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#outResultado {
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    bottom: 75;
+    color: rgb(49, 192, 156);   
+}
